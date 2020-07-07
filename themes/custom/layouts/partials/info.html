@@ -1,0 +1,20 @@
+<div>
+    
+    {{with .Site.Params.author}}
+    <div class="title">
+        - {{.}}
+    </div>
+    {{end}}
+    {{ with .Site.Params.intro }}
+    <div class="intro">{{ . | markdownify }}</div>
+    {{ end }}
+    {{ with .Site.Params.description }}
+    <div class="description">
+        <li>
+            {{ . | markdownify}}
+        </li>
+    </div>
+    {{ end }}
+
+
+</div>

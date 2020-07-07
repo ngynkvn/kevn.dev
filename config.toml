@@ -5,7 +5,7 @@ theme= "custom"
 
 [[menus.main]]
     Name = "about"
-    URL = "/about
+    URL = "/about"
 
 [[menus.main]]
     Name = "projects"
