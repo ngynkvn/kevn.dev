@@ -1,0 +1,28 @@
+html {
+    background-color: #111;
+    color: whitesmoke;
+    position: relative; 
+    left:20px; 
+}
+
+a {
+    color: #eee
+}
+
+li {
+  font-size: 18px;
+}
+
+.title {
+    font-size: 32px
+}
+.intro {
+    font-size: 20px
+}
+.description {
+    font-size:20px;
+}
+.content {
+    width:500px;
+    font-size:18px;
+}

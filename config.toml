@@ -1,0 +1,8 @@
+baseURL = "http://kevn.dev/"
+languageCode = "en-us"
+title = "Kevin Nguyen"
+theme= "mytheme"
+
+[[menus.main]]
+    Name = "projects"
+    URL = "/projects"
